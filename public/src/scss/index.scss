@@ -9,24 +9,15 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    .Box{
-        background-color: aliceblue;
-        height: 100px;
-        width: 100px;
+    .LoginHader{
         display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-content: center;
         justify-content: center;
         align-items: center;
-        .Login_Hader{
-            font-size: 2rem;
-            font-weight: 900;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-        .Login_Body{
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
+        font-size: 1.4rem;
+        font-weight: bolder;
+        padding-bottom: 18px;
     }
 }
