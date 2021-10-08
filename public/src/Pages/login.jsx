@@ -13,7 +13,7 @@ export default class login extends Component {
     render() {
         return (
             <div className="Login" >
-                <Card style={{ width:'90%', height:'90%', maxHeight:'350px', maxWidth:"300px", }} >
+                <Card style={{ width:'90%', height:'90%', maxHeight:'350px', maxWidth:"300px", }} elevation={9} >
                     <CardContent>
                         <Typography component='div' >
                         <div className="LoginHader">

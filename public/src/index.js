@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import App from './App';
 import './scss/index.css'
 import { BrowserRouter } from 'react-router-dom'
+import './firebase'
 
 ReactDOM.render(
   <React.StrictMode>

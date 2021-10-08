@@ -1,11 +1,12 @@
 import { Switch, Route } from 'react-router-dom'
-import { Login } from './Pages/index'
+import { Login,Registration } from './Pages/index'
 
 function App() {
   return (
     <>
     <Switch>
-      <Route exact path='/' component={Login} />
+      <Route exact path='/' component={Registration} />
+      <Route exact path='/login' component={Login} />
     </Switch>
     </>
   );
